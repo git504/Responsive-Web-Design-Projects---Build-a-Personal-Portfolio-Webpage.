@@ -1,0 +1,62 @@
+html, body {
+  text-align: left;
+  height: auto;
+  width: auto;
+  font-family: Roboto Mono, monospace;
+  color: silver;
+  background-color: #2a2b40;
+  font-size: 18px;
+  line-height: 1.42857143;
+  }
+
+  nav ul li {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  margin:10px;
+  margin-top:20px;
+  margin-bottom:15em;
+  }
+   
+  #navbar{
+  position:fixed;
+  top:0;
+  width:90%;
+  }
+  
+  a {
+  text-decoration: none;
+  }
+  
+  #welcome-section{
+  text-align:center;
+  margin-bottom:40em;
+  height:100vh;
+  min-height:100px;
+  margin-top: 7rem;
+  display: block;
+  padding-top: 0px;
+  }
+
+  #projects {
+  text-align:center;
+  }
+
+  img{
+  width:170px;
+  height:100%;
+  }
+
+  #profile-link {
+  display:inline-block;
+  overflow:hidden;
+  text-decoration: none;
+  margin:50px;
+  }
+
+  @media all and (max-height: 100%)
+  {
+   #welcome-section
+  {
+    
+    }
